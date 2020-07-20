@@ -11,11 +11,15 @@ A to-do list is created and the task can be categorised as immediate,efficient,i
 6. Each category can accomodate only 4 tasks, doesn't allow empty task and also disables editing.
 
 ## Instructions to setup the project
-1.Clone this repository
+1.Clone this repository.
 `$ git clone https://github.com/Olagammal/TaskManager-ReactJS.git`
+
+2. Enter inside the project folder.
+
 2. Install the dependencies. Make sure node and npm is already installed in your system
-`npm install`
-3. Run the app
-`npm start`
+`$ npm install`
+
+3. Run the app.
+`$ npm start`
 
 
