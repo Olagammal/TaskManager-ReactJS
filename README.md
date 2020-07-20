@@ -15,7 +15,7 @@ A to-do list is created and the task can be categorised as immediate,efficient,i
 
  `$ git clone https://github.com/Olagammal/TaskManager-ReactJS.git`
 
-2. Enter inside the project folder.
+2. Enter into the project folder.
 
  `$ cd TaskManager-ReactJS`
 
