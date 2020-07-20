@@ -35,11 +35,9 @@ const App = () => {
   const clickable = () =>{
     myList.push("")
     editable.push(true)
-    setCreateList(createList +1) 
-    // console.log(document.getElementByClass("trash-icon").parentElement.nodeName);   
+    setCreateList(createList +1)  
   }
   const removeList = (list,index) =>{ 
-    // console.log(); 
     list.splice(index,1)
     editable.splice(index,1)
     setCreateList(createList -1)
@@ -203,7 +201,7 @@ const App = () => {
                       return(
                         <div draggable="true" onDrag={(event)=>{dragStarted(event,index,immediateArray)}}>
                           <Input type="text" className="my-list" readOnly={true} value={immediateArray[index]}/>
-                          <FaTrash className="trash-icon" onClick={()=>{removeList(efficientArray,index)}}/>
+                          <FaTrash className="trash-icon" onClick={()=>{removeList(immediateArray,index)}}/>
                         </div>
                       )
                     })
